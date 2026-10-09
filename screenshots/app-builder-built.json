@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Daftar",
+      "hasCanvas": false,
+      "bodyTextLen": 2466,
+      "bodyTextHash": "ef5bf6b479eef9a67edd599982634fe03578db411eaf3f1af725f5fbe46b66df",
+      "bodyTextPrefix": "Daftar Rao & Associates ₹1,30,000 to come in Chats Bills Search ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Daftar",
+      "hasCanvas": false,
+      "bodyTextLen": 625,
+      "bodyTextHash": "81194e688011a8e904edd12fa4562a6c14fcb9b06185a89eb2608aa22fd1a19b",
+      "bodyTextPrefix": "Daftar Rao & Associates ₹1,30,000 to come in Chats Bills Search ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
