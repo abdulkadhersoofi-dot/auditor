@@ -1,0 +1,19 @@
+/* Android entry stylesheet: pulls in the app's Tailwind styles and adds
+   Android-only overrides. */
+@import "../src/styles.css";
+
+/* Tailwind scans from the Vite root (android-web/) by default, so point it at
+   the shared UI sources explicitly or no utility classes get generated. */
+@source "../src";
+
+/* fontsource registers the variable font as "Fraunces Variable"; keep the
+   app's "Fraunces" name working as well. */
+:root:root {
+  --font-display: "Fraunces Variable", "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+/* No text-size inflation / tap flash in the WebView. */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
